@@ -1,6 +1,6 @@
 module.exports = {
   	path: '001_detik',
-  	url: 'https://www.detik.com/search/searchall?query=jokowi&siteid=3&sortby=time&fromdatex=01/02/2019&todatex=31/03/2019',
+  	url: 'https://www.detik.com/search/searchall?query=jokowi&siteid=3&sortby=time&fromdatex=01/02/2019&todatex=31/03/2019&page=3',
 	selector: {
 	    container: '.list.media_rows.list-berita > article',
 	    title: {
