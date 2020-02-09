@@ -1,0 +1,24 @@
+{
+  "name": "app-crawler",
+  "version": "1.0.0",
+  "description": "Simple crawler script",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js --path=path_name"
+  },
+  "keywords": [
+    "crawler",
+    "crawling",
+    "scrapping"
+  ],
+  "author": "Mizan",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "minimist": "^1.2.0",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27",
+    "mysql": "^2.18.1",
+    "request": "^2.88.0"
+  }
+}
